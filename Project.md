@@ -212,6 +212,7 @@ confusionMatrix(predictedValues, testing$classe)
 ## Detection Prevalence   0.2877   0.1925   0.1764   0.1580   0.1854
 ## Balanced Accuracy      0.9947   0.9817   0.9775   0.9730   0.9976
 ```
+CROSSVALIDATION: As it could be seen, the random forest model gets an accuracy of 0.979 working with the above-mentioned 22 variables. However, although the model reduces the number of variables from 53 (non NAs variables) to 22, this number is still high and the classification model selected, random forest, implies using too much CPU, memory and, thus, time. 
 
 
 ### Conclusion
