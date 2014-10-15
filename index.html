@@ -404,9 +404,12 @@ confusionMatrix(predictedValues, testing$classe)
 ## Balanced Accuracy      0.9947   0.9817   0.9775   0.9730   0.9976
 </code></pre>
 
+<p>It can be seen that the out of sample error, the error got with the testing data set, is 0.9721, obviously higher that the no error, 1, of training test, in sample error.   </p>
+
+
 <h3>Conclusion</h3>
 
-<p>As it could be seen, the random forest model gets an accuracy of 0.979 working with the above-mentioned 22 variables. However, although the model reduces the number of variables from 53 (non NAs variables) to 22, this number is still high and the classification model selected, random forest, implies using too much CPU, memory and, thus, time. </p>
+<p>CROSSVALIDATION: As it could be seen, the random forest model gets an accuracy of 0.979 working with the above-mentioned 22 variables. However, although the model reduces the number of variables from 53 (non NAs variables) to 22, this number is still high and the classification model selected, random forest, implies using too much CPU, memory and, thus, time. </p>
 
 <p>More feauture selection is required to reduce the number of relevant variables and other methodogies, less time consuming, should be used, in other to make this computation process available for small (and portable) devices.</p>
 
